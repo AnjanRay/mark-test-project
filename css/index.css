@@ -1,0 +1,57 @@
+body, html {
+  height: 100%; }
+
+body {
+  margin: 0;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 17px;
+  color: #3B3A55; }
+
+a {
+  color: #3B3A55;
+  text-decoration: none; }
+
+.wrapper {
+  display: grid;
+  grid-gap: 25px 50px;
+  grid-template-columns: 100%;
+  background-color: #f3f3f3;
+  padding: 10px;
+  text-align: center;
+  min-height: 100vh; }
+  .wrapper .header-icon img {
+    height: 50px;
+    cursor: pointer; }
+  .wrapper .header-item h1 {
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    font-size: 52px; }
+  .wrapper .content form {
+    margin: 0 auto;
+    max-width: 320px;
+    text-align: left; }
+    .wrapper .content form input {
+      height: 40px;
+      width: 100%;
+      font-size: 13px;
+      border-radius: 2px;
+      border: 2px solid #DEEDFF;
+      padding-left: 8px; }
+    .wrapper .content form .error-text {
+      font-size: 14px;
+      font-weight: 700;
+      color: #F26D65; }
+  .wrapper .footer {
+    font-size: 14px; }
+    .wrapper .footer ul li {
+      display: inline-block;
+      margin-right: 4px;
+      text-transform: capitalize; }
+    .wrapper .footer p {
+      text-transform: capitalize;
+      font-size: 13px; }
+      .wrapper .footer p .heart {
+        color: #F26D65;
+        font-size: 16px; }
+
+/*# sourceMappingURL=index.css.map */
